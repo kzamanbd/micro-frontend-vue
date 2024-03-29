@@ -12,6 +12,11 @@ module.exports = defineConfig({
                 },
                 remotes: {
                     remoteApp: 'remoteApp@https://micro-frontend-vue.vercel.app/assets/remoteEntry.js'
+                },
+                shared: {
+                    vue: {
+                        singleton: true
+                    }
                 }
             })
         ]
