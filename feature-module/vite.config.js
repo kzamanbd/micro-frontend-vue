@@ -12,7 +12,7 @@ export default defineConfig({
             name: 'feature-remote-app',
             shared: ['vue'],
             remotes: {
-                remoteApp: 'http://localhost:9000/assets/remoteEntry.js'
+                remoteApp: 'https://micro-frontend-vue.vercel.app/assets/remoteEntry.js'
             }
         })
     ],

@@ -1,6 +1,8 @@
 <script setup>
     import { RouterLink, RouterView } from 'vue-router';
     import HelloWorld from './components/HelloWorld.vue';
+
+    import RemoteButton from 'remoteApp/RemoteButton';
 </script>
 
 <template>
@@ -13,6 +15,7 @@
             <nav>
                 <RouterLink to="/">Home</RouterLink>
                 <RouterLink to="/about">About</RouterLink>
+                <RemoteButton />
             </nav>
         </div>
     </header>
